@@ -1,0 +1,6 @@
+public class method28 {
+    public static void main(String[] args) {
+        int n=sc.nextInt();
+        
+    }
+}
