@@ -1,16 +1,17 @@
-//write a java prg to find sum of diagonal elements
+//write a java prg to count number of voweils in the given string
 public class prg4 {
     public static void main(String[] args) {
-        int[][] arr={{10,20,30},{40,50,60},{70,80,90}};
-        int sum=0;
-        for(int i=0;i<arr.length;i++){
-            
-            for(int j=0;j<arr[i].length;j++){
-                if(i==j){
-                    sum+=arr[i][j];
-                }
-            }
+        String name="Ding Dong";
+        int count=0;
+        String vowel="AEIOUaeiou";
+        for(int i=0;i<name.length();i++){
+            // if(name.charAt(i)=='a'||name.charAt(i)=='e'||name.charAt(i)=='i'||name.charAt(i)=='o'||name.charAt(i)=='u'||name.charAt(i)=='A'||name.charAt(i)=='E'||name.charAt(i)=='I'||name.charAt(i)=='O'||name.charAt(i)=='U'){
+            //     count++;
+            // }
+            if(vowel.contains(name.charAt(i)+""))
+                count++;
         }
-        System.out.println(sum);
+        System.out.println(count);
     }
+    
 }
