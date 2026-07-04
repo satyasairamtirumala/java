@@ -1,7 +1,24 @@
+//finding the longest word in the line
 public class prg17 {
     public static void main(String[] args) {
-        for(char c1='a',c2='A';c1<='z' && c2<='Z' ;c1++,c2++){
-              System.out.println(c1+" "+c2);
+        String str="hello world";
+        String word="";
+        String big="";
+        int count=0;
+        String vowel="aeiouAEIOU";
+        for(int i=0;i<str.length();i++){
+            if(str.charAt(i)!=' '){
+                word=word+(str.charAt(i));
+                if(vowel.contains(str.charAt(i)+"")){
+                    count++;
+                }
+
+            }
+            else{
+                
+            }
+
         }
     }
 }
+-
