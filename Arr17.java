@@ -1,4 +1,3 @@
-
 public class Arr17 {
     public static void main(String[] args) {
         int[] arr = {10, 20, 30, 10, 40, 20};
